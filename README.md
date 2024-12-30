@@ -12,11 +12,11 @@ Mantener un diseño moderno y accesible
 
 ## Tecnologías Utilizadas
 
-React 18
-TypeScript
-Vite
-Tailwind CSS
-Context API para gestión de estado
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Context API para gestión de estado
 
 ## Características Principales
 
@@ -27,8 +27,10 @@ Context API para gestión de estado
 - Diseño responsivo para móvil y desktop
 - Notificaciones toast para feedback de usuario
 
-Dependencias Principales
+## Dependencias Principales
 jsonCopy{
+```json
+{
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -38,6 +40,7 @@ jsonCopy{
     "@heroicons/react": "^2.0.16"
   }
 }
+```
 ### Despliegue
 La aplicación está desplegada en Netlify:
 
@@ -59,7 +62,7 @@ git clone https://github.com/tu-usuario/task-manager-frontend.git
 cd task-manager-frontend
 npm install
 
-# Construir para producción
+### Construir para producción
 npm run build
 
 ## Desarrollador
